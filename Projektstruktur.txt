@@ -1,0 +1,4 @@
+Lernschritt 1
+- Chatbot: direkte Antwort auf eine Eingabe
+- Workflow: festgelegte Abfolge von Schritten
+- Agent: selbstständige Auswahl des nächsten erlaubten Schritts innerhalb klarer Grenzen
