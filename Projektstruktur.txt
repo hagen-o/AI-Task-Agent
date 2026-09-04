@@ -2,3 +2,20 @@ Lernschritt 1
 - Chatbot: direkte Antwort auf eine Eingabe
 - Workflow: festgelegte Abfolge von Schritten
 - Agent: selbstständige Auswahl des nächsten erlaubten Schritts innerhalb klarer Grenzen
+
+
+Tool Schnittstelle
+- Vertrag den jedes Werkzeug erfüllen muss:
+    - wie das Werkzeug heißt
+    - wie seine Funktion beschrieben wird
+    - wie es Argumente erhält
+    - welche Ergebnistyp es zurückgibt
+
+- Position in Architektur:
+Agent
+  ↓ wählt einen Werkzeugnamen
+Tool-Registry
+  ↓ liefert passendes Werkzeug
+Gemeinsame Tool-Schnittstelle
+  ↓ garantiert einheitliche Bedienung
+Konkretes Werkzeug
