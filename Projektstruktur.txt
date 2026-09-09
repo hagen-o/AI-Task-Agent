@@ -44,3 +44,18 @@ Agentenstatus
 Modellanbieter → Agentenschleife → Tool-Registry
                             ↑
                       Tool-Ergebnis
+
+
+Begrenzte Agentenschleife
+
+Ziel
+ ↓
+AgentState
+ ↓
+Agentenschleife ←────────────┐
+ ↓                          │
+Modellanbieter               │
+ ↓                          │
+Zustand aktualisieren ───────┘
+ ↓
+fertig oder Schrittgrenze erreicht
