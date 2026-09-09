@@ -59,3 +59,16 @@ Modellanbieter               │
 Zustand aktualisieren ───────┘
  ↓
 fertig oder Schrittgrenze erreicht
+
+
+Fehler & unbekannte Werkzeuge kontrollieren
+
+Werkzeugname
+     ↓
+Tool-Registry
+  ↙       ↘
+gefunden  unbekannt → kontrollierte Fehlermeldung
+   ↓
+execute(...)
+  ↙       ↘
+Ergebnis  Ausnahme → kontrollierte Fehlermeldung

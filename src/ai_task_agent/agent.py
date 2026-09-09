@@ -1,5 +1,20 @@
 from ai_task_agent.providers.mock import MockModelProvider
 from ai_task_agent.agent_state import AgentState
+from ai_task_agent.tools.registry import ToolRegistry
+
+
+def execute_registered_tool(
+        registry: ToolRegistry,
+        tool_name: str,
+        arguments: dict[str, object],
+) -> str:
+    tool = registry.get(tool_name)
+    if tool is None:
+        return f"Unknown tool: {tool_name}"
+    try:
+        return tool.execute(arguments)
+    except Exception:
+        return "Tool execution failed."
 
 
 def run_agent(
