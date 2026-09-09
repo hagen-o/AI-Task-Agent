@@ -20,6 +20,7 @@ Gemeinsame Tool-Schnittstelle
   ↓ garantiert einheitliche Bedienung
 Konkretes Werkzeug
 
+
 Tool Registry
 Sicherheitsregel: Werkzeug ist nur verfügbar wenn die Anwendung es bewusst in Registry aufgenommen hat
 
@@ -30,3 +31,16 @@ Agent fragt nach "task_summary"
  Werkzeug gefunden   unbekannter Name
        ↓                   ↓
  execute(...)             None
+
+
+Agentenstatus
+
+                 ┌─────────────────────┐
+                 │     AgentState      │
+                 │ Ziel, Schritte,     │
+                 │ Beobachtungen, Ende │
+                 └──────────┬──────────┘
+                            ↓
+Modellanbieter → Agentenschleife → Tool-Registry
+                            ↑
+                      Tool-Ergebnis
