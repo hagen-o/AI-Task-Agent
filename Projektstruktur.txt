@@ -19,3 +19,14 @@ Tool-Registry
 Gemeinsame Tool-Schnittstelle
   ↓ garantiert einheitliche Bedienung
 Konkretes Werkzeug
+
+Tool Registry
+Sicherheitsregel: Werkzeug ist nur verfügbar wenn die Anwendung es bewusst in Registry aufgenommen hat
+
+Agent fragt nach "task_summary"
+              ↓
+         ToolRegistry
+         ↙          ↘
+ Werkzeug gefunden   unbekannter Name
+       ↓                   ↓
+ execute(...)             None
