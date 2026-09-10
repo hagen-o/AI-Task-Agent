@@ -72,3 +72,16 @@ gefunden  unbekannt → kontrollierte Fehlermeldung
 execute(...)
   ↙       ↘
 Ergebnis  Ausnahme → kontrollierte Fehlermeldung
+
+
+Planer
+
+Ziel
+ ↓
+Planner
+ ↓
+geordnete Teilschritte
+ ↓
+Agentenschleife
+ ↓
+Registry und Werkzeuge
