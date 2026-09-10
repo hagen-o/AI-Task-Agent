@@ -85,3 +85,12 @@ geordnete Teilschritte
 Agentenschleife
  ↓
 Registry und Werkzeuge
+
+
+Agentenläufe mit SQLite speichern
+
+AgentState
+    ↓
+Persistenzschicht
+    ↓
+SQLite-Tabelle agent_runs
