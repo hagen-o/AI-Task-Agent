@@ -125,3 +125,18 @@ einzelne Komponente
 tatsächliches Ergebnis
  ↓
 Vergleich mit erwartetem Ergebnis
+
+
+Terminal
+
+Terminaleingabe
+      ↓
+Typer-CLI
+      ↓
+MockModelProvider
+      ↓
+run_agent
+      ↓
+AgentState
+      ↓
+Terminalausgabe
