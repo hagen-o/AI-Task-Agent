@@ -23,3 +23,10 @@ def reflect(evaluation: Evaluation) -> str:
         return "No improvement needed."
     else:
         return "Review the stopping conditions and final answer."
+
+
+def calculate_success_rate(evaluations: list[Evaluation]) -> float:
+    if not evaluations:
+        return 0.0
+    success_count = sum(1 for evaluation in evaluations if evaluation.success)
+    return success_count / len(evaluations)
