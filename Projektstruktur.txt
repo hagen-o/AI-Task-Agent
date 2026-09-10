@@ -117,3 +117,11 @@ Tests
 Arrange: Testobjekt und Eingaben vorbereiten
 Act:     Verhalten ausführen
 Assert:  tatsächliches Ergebnis prüfen
+
+Test
+ ↓
+einzelne Komponente
+ ↓
+tatsächliches Ergebnis
+ ↓
+Vergleich mit erwartetem Ergebnis
