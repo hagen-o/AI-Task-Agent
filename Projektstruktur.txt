@@ -94,3 +94,26 @@ AgentState
 Persistenzschicht
     ↓
 SQLite-Tabelle agent_runs
+
+Evaluator & Reflexion
+- Ausführung: Was hat der Agent getan?
+- Evaluation: Wurde der Lauf erfolgreich abgeschlossen?
+- Reflexion: Was sollte bei einem weiteren Versuch verbessert werden?
+
+Agentenlauf
+    ↓
+AgentState
+    ↓
+Evaluator
+    ↓
+Evaluation
+    ↓
+Reflexion
+    ↓
+Verbesserungshinweis
+
+
+Tests
+Arrange: Testobjekt und Eingaben vorbereiten
+Act:     Verhalten ausführen
+Assert:  tatsächliches Ergebnis prüfen
