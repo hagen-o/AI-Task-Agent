@@ -151,3 +151,18 @@ ModelDecision
 "tool"       "finish"
   ↓              ↓
 Werkzeug       Endantwort
+
+
+Lauf, Speicherung & Evaluation
+
+Datenbank initialisieren
+        ↓
+Agentenlauf ausführen
+        ↓
+AgentState speichern
+        ↓
+Lauf evaluieren
+        ↓
+Reflexion erzeugen
+        ↓
+alle drei Ergebnisse zurückgeben
