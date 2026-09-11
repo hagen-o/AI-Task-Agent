@@ -140,3 +140,14 @@ run_agent
 AgentState
       ↓
 Terminalausgabe
+
+
+Strukturierte Modellentscheidung
+
+Modellanbieter
+      ↓
+ModelDecision
+  ↙           ↘
+"tool"       "finish"
+  ↓              ↓
+Werkzeug       Endantwort
