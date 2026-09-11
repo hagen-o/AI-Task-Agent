@@ -166,3 +166,14 @@ Lauf evaluieren
 Reflexion erzeugen
         ↓
 alle drei Ergebnisse zurückgeben
+
+
+End to End Test
+
+strukturierte Entscheidungen
+→ Registry
+→ Werkzeug
+→ AgentState
+→ SQLite
+→ Evaluation
+→ Reflexion
