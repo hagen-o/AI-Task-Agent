@@ -1,0 +1,2 @@
+[console_scripts]
+ai-task-agent = ai_task_agent.cli:app
